@@ -17,8 +17,4 @@ public class RestContlr {
     public String admin() {
         return ("<h1>Welcome Admin<h1>");
     }
-    @GetMapping("/guest")
-    public String guest(){
-        return ("<h1>Welcome Guest<h1>");
-    }
 }
